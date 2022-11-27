@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Hotel Booking</title>
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+    <body>
+      <div  class="main" >
+        <div class="title"> <h1>Jhansi</h1></div>
+       <ul>
+        <li> <a href="C:\Users\Kanchan\Desktop\html\home.html">home</a></li>
+        <li> <a href="C:\Users\Kanchan\Desktop\html\heritage.html">heritage</a></li>
+        <li> <a href="C:\Users\Kanchan\Desktop\html\hotelbooking.html">hotelbooking</a></li>
+        <li><a href="C:\Users\Kanchan\Desktop\html\gallery.html">gallery</a> </li>
+       </ul> 
+</div> 
+      
+          <div class="booking">
+            <h1>Booking & Contact</h1>
+            <form action="heritage.html" method="GET">
+              <fieldset>
+                <legend>personal details</legend>
+                <label for="name">Username:</label><input type="username" id="name" required autofocus placeholder="Your name" pattern="[a-zA-Z]{3,}" title="please enter">
+                <label for="email">Email:</label> <input type="text" name="email" required placeholder="your email" pattern="[a-zA-Z}{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="please enter in a valid email addrEss">
+                <label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" required placeholder="please enter in your phone number" pattern="[0-9]{4} [0-9]{3}" title="please enter in a phone number in this format:#### ### ###">
+                <select name="city" required>
+                <option value="lalitpur">lalit</option>
+                <option value="jhansi">jhansi</option>
+                <option value="urai">urai</option>
+                <option value="agra">agra</option>
+              </select>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>booking details:</legend>
+                <label for="date">booking date:</label><input type="date" name="date" min="2022-11-07">
+                <label for="numberofgust">number of guests:</label> <input type="number" name="numberofgusts">
+            <p>Do you require meals?</p>
+            <label for="yesmeal">yes:</label> <input type="radio" name="meals" value="yesmeals">
+            <label for="nomeal">no:</label> <input type="radio" name="meals" value="nomeals">
+            <br>
+            <input type="image" alt="submit" >
+
+          </fieldset>
+
+            </form>
+
+          </div>
+          <div class="foot"> 
+          </div>
+          
+</body>
+</html>

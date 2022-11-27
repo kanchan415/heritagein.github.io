@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    
+    }
+    .title{
+        position:absolute;
+        top:5%;
+        left:20%;
+        transform: translate(-50%,-50%);
+    }
+    .title h1{
+        color: #fff;
+        font-size: 70px;
+        text-align: left;
+    }
+.main
+{
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+    background-size: cover;
+    background-position:center ;
+}
+.booking
+{
+    
+    background: white;
+    
+    margin: 8% auto;
+    text-align: center;
+    
+} 
+
+  .homeimg{
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .foot{
+    height: 100px;
+    background-color: aquamarine;
+  }
+  .gall
+  {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .gall img{
+    padding-block: 20px;
+    border-radius: 8px;
+    border: ipx solid #ddd;
+    padding: 5px;
+width: 400px;
+  }
+  .d img{
+    padding-block: 20px;
+    border-radius: 8px;
+    border: ipx solid, red;
+    padding: 5px;
+width: 450px;
+margin-left: auto;
+margin-right: auto;
+display:block;
+  }
+ .d p
+  {
+  text-align: center;
+  }
+  .page{
+    padding-left: 300px;
+  }
